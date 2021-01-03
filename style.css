@@ -1,0 +1,36 @@
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+body {
+    font-size: 12px;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+@media all and (min-width: 768px) and (max-width: 992px) {
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    ul li {
+        flex-basis: 33%;
+    }
+
+    .fix {
+        flex-basis: 100%
+    }
+}
+
